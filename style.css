@@ -45,6 +45,10 @@ main { background:#fff; margin:20px auto; max-width:900px; padding:20px; box-sha
 .project-box { flex:1 1 240px; border:2px solid #333; padding:12px; background:#fafafa; transition:box-shadow 200ms ease, transform 200ms ease; }
 .project-box:hover { box-shadow:0 8px 20px rgba(0,0,0,0.12); transform:translateY(-6px); }
 
+/* EXTRA EFFEKTER */
+.project-box { transition: transform 200ms ease, box-shadow 200ms ease; }
+.project-box:focus-within { box-shadow:0 10px 30px rgba(0,0,0,0.15); transform:translateY(-8px); }
+
 /* STEG 2: HEADER + FOOTER */
 /* Lägg till stilar för header och footer enligt UPPGIFTER.md */
 
