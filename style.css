@@ -49,6 +49,12 @@ main { background:#fff; margin:20px auto; max-width:900px; padding:20px; box-sha
 .project-box { transition: transform 200ms ease, box-shadow 200ms ease; }
 .project-box:focus-within { box-shadow:0 10px 30px rgba(0,0,0,0.15); transform:translateY(-8px); }
 
+/* RESPONSIV */
+@media (max-width:600px) {
+  .projects-grid { flex-direction:column; }
+  .nav-inner { text-align:center; }
+}
+
 /* STEG 2: HEADER + FOOTER */
 /* Lägg till stilar för header och footer enligt UPPGIFTER.md */
 
