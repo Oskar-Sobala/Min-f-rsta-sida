@@ -31,6 +31,13 @@ header .subtitle { margin:4px 0 0; font-size:0.95rem; opacity:0.9; }
 footer { background:#222; color:#fff; padding:10px 0; }
 .footer-inner { max-width:900px; margin:0 auto; padding:0 15px; text-align:center; }
 
+/* NAV */
+nav { background:#333; }
+.nav-inner { max-width:900px; margin:0 auto; padding:8px 15px; }
+.nav-link { color:#fff; margin-right:18px; text-decoration:none; padding:6px 8px; border-radius:4px; display:inline-block; }
+.nav-link:hover, .nav-link:focus { background:rgba(255,255,255,0.08); transform:translateY(-2px); transition:all 150ms ease; }
+.nav-link:focus { outline:2px solid #fff; outline-offset:3px; }
+
 /* STEG 2: HEADER + FOOTER */
 /* Lägg till stilar för header och footer enligt UPPGIFTER.md */
 
